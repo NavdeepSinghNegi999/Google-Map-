@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walked Path Tracker (Free API)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <h2>Walked Path Tracker</h2>
+    <div id="map"></div>
+    <div class="controls">
+        <button onclick="startTracking()">Start Walking</button>
+        <button onclick="stopTracking()">Stop Tracking</button>
+        <button onclick="retracePath()">Retrace Path</button>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
